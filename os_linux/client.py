@@ -5,7 +5,6 @@ while True:
         # Create an XML-RPC client proxy
         proxy = xmlrpc.client.ServerProxy(f"http://192.168.1.95:8000")
 
-
         filename = input("Please enter the filename to request (or 'exit' to quit): ")
         if filename.lower() == 'exit':
             break
